@@ -1,42 +1,50 @@
-.mainMenu{
+.mainMenu {
     /*height: 200px;*/
     background-color: rgb(253, 131, 188);
 }
-.mainBlock{
-display: flex;
+
+.mainBlock {
+    display: flex;
 }
-.leftPanel{
+
+.leftPanel {
     height: 800px;
     width: 20%;
     background-color: rgb(189, 137, 238);
 }
-.mainPanel{
+
+.mainPanel {
     display: flex;
     flex-wrap: wrap;
     height: 800px;
     width: 60%;
     background-color: rgb(247, 125, 88);
 }
-.rightPanel{
+
+.rightPanel {
     height: 800px;
     width: 20%;
     background-color: rgb(223, 146, 238);
 }
-.mainPanel div{
+
+.mainPanel div {
     height: 200px;
     width: 200px;
 }
-.mainPanel img{
+
+.mainPanel img {
     max-height: 110px;
     max-width: 110px;
 }
-.mainMenu h1{
-    font-size: 60px;
+
+.mainMenu h1 {
+    font-size: 40px;
     text-align: center;
 }
-.mainMenu p{
+
+.mainMenu p {
     margin-left: 30px;
     margin-bottom: 0px;
-    font-size: 40px;
+    font-size: 20px;
     color: azure;
 }
